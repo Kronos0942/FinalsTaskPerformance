@@ -214,7 +214,7 @@ public class BlacklistPage extends JFrame {
                     if(row == -1) {
                         JOptionPane.showMessageDialog(null, "Please select a row to delete");
                     }else {
-                        int confirm = JOptionPane.showConfirmDialog(null, "Are you sure you want to delete this account?", "Delete", JOptionPane.YES_NO_OPTION);
+                        int confirm = JOptionPane.showConfirmDialog(null, "Are you sure you want to delete this?", "Delete", JOptionPane.YES_NO_OPTION);
                         if(confirm == JOptionPane.YES_OPTION) {
                             model.removeRow(row);
                             try {
